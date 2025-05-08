@@ -20,7 +20,7 @@ namespace ProblematicProblem
             string userName = Console.ReadLine();
             Console.WriteLine();
             Console.Write("What is your age? ");
-            int userAge = Console.ReadLine();
+            int userAge = int.Parse(Console.ReadLine());
             Console.WriteLine();
             Console.Write("Would you like to see the current list of activities? true/false: ");
             bool seeList = bool.Parse(Console.ReadLine());
